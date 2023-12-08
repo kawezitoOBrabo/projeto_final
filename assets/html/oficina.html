@@ -1,1 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Oficina</title>
+  </head>
+  <body>
+    <header style="background-image: url('../img/higiene.jpg')">
+      <div class="container">
+        <nav>
+          <a href="../index.html">
+            <img
+              src="../img/logo.png"
+              alt="logo"
+              width="300px"
+              height="100px"
+            />
+          </a>
+          <ul class="ul">
+            <a href="../index.html" target="_parent">Página inicial</a>
+            <a href="../html/sobre.html" target="_parent">Sobre</a>
+            <a class="btn" href="../html/oficina.html" target="_parent"
+              >Oficinas</a
+            >
+            <a href="../html/comunidade.html" target="_parent">Comunidade</a>
+            <div class="close-icon" onclick="closeMenu()">
+              <i class="fa fa-close fa-2x"></i>
+            </div>
+          </ul>
+          <div class="menu-icon" onclick="openMenu()">
+            <!-- Ícone do menu (hamburguer) -->
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </nav>
+        <section class="banner">
+          <div class="banner-texto">
+            <h1>
+              Oficinas
+              <br />
+              <br />
+              <br />
+            </h1>
+          </div>
+        </section>
+      </div>
+    </header>
 
+    <main>
+      <section class="oficinas">
+        <!-- Card oficinas 1 -->
+        <div class="cards-oficinas">
+          <div class="card-oficina">
+            <a href="../html/partes_do_corpo.html">
+              <img src="../img/saudavel.png" alt="saudavel" />
+            </a>
+            <hr />
+            <a href="../html/partes_do_corpo.html">
+              <p class="nome-oficina">Partes do corpo</p>
+            </a>
+            <p class="explicacao-oficina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              deserunt libero ipsa eos natus veniam molestias vero?
+              Necessitatibus illo earum incidunt tempora eos, aliquam,
+              reprehenderit, ea culpa tempore quos nihil.
+            </p>
+          </div>
+          <div class="card-oficina">
+            <a href="../html/higiene_corporal.html">
+              <img src="../img/saudavel.png" alt="saudavel" />
+            </a>
+            <hr />
+            <a href="../html/higiene_corporal.html">
+              <p class="nome-oficina">Higiene corporal</p>
+            </a>
+            <p class="explicacao-oficina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              deserunt libero ipsa eos natus veniam molestias vero?
+              Necessitatibus illo earum incidunt tempora eos, aliquam,
+              reprehenderit, ea culpa tempore quos nihil.
+            </p>
+          </div>
+        </div>
+        <!-- Card oficinas 2 -->
+
+        <div class="cards-oficinas">
+          <div class="card-oficina">
+            <a href="../html/higiene_bucal.html">
+              <img src="../img/saudavel.png" alt="saudavel" />
+            </a>
+            <hr />
+            <a href="../html/higiene_bucal.html">
+              <p class="nome-oficina">Higiene bucal</p>
+            </a>
+            <p class="explicacao-oficina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              deserunt libero ipsa eos natus veniam molestias vero?
+              Necessitatibus illo earum incidunt tempora eos, aliquam,
+              reprehenderit, ea culpa tempore quos nihil.
+            </p>
+          </div>
+          <div class="card-oficina">
+            <a href="../html/alimentacao.html">
+              <img src="../img/saudavel.png" alt="saudavel" />
+            </a>
+            <hr />
+            <a href="../html/alimentacao.html">
+              <p class="nome-oficina">Alimentação</p>
+            </a>
+            <p class="explicacao-oficina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              deserunt libero ipsa eos natus veniam molestias vero?
+              Necessitatibus illo earum incidunt tempora eos, aliquam,
+              reprehenderit, ea culpa tempore quos nihil.
+            </p>
+          </div>
+        </div>
+        <!-- Card oficinas 3 -->
+        <div class="cards-oficinas">
+          <div class="card-oficina">
+            <a href="../html/higiene_ambiental.html">
+              <img src="../img/saudavel.png" alt="saudavel" />
+            </a>
+            <hr />
+            <a href="../html/higiene_ambiental.html">
+              <p class="nome-oficina">Higiene Ambiental</p>
+            </a>
+            <p class="explicacao-oficina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              deserunt libero ipsa eos natus veniam molestias vero?
+              Necessitatibus illo earum incidunt tempora eos, aliquam,
+              reprehenderit, ea culpa tempore quos nihil.
+            </p>
+          </div>
+          <div class="card-oficina">
+            <a href="../html/jogos.html">
+              <img src="../img/saudavel.png" alt="saudavel" />
+            </a>
+            <hr />
+            <a href="../html/jogos.html">
+              <p class="nome-oficina">Jogos</p>
+            </a>
+            <p class="explicacao-oficina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              deserunt libero ipsa eos natus veniam molestias vero?
+              Necessitatibus illo earum incidunt tempora eos, aliquam,
+              reprehenderit, ea culpa tempore quos nihil.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <div class="mySlides-imagem">
+            <img src="../img/saudavel.png" alt="aleatoria" />
+          </div>
+          <div class="mySlides-titulo">
+            <b>
+              <a href="../html/partes_do_corpo.html">
+                <p class="nome-oficina">Partes do corpo</p>
+              </a>
+            </b>
+          </div>
+          <div class="mySlides-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a
+            excepturi voluptatem accusantium consequatur quidem harum officia,
+            voluptate, perspiciatis quibusdam maiores debitis. Harum, quas!
+            Debitis deleniti qui asperiores fugiat ipsa.
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <div class="mySlides-imagem">
+            <img src="../img/saudavel.png" alt="aleatoria" />
+          </div>
+          <div class="mySlides-titulo">
+            <b>
+              <a href="../html/higiene_corporal.html">
+                <p class="nome-oficina">Higiene corporal</p>
+              </a>
+            </b>
+          </div>
+          <div class="mySlides-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a
+            excepturi voluptatem accusantium consequatur quidem harum officia,
+            voluptate, perspiciatis quibusdam maiores debitis. Harum, quas!
+            Debitis deleniti qui asperiores fugiat ipsa.
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <div class="mySlides-imagem">
+            <img src="../img/saudavel.png" alt="aleatoria" />
+          </div>
+          <div class="mySlides-titulo">
+            <b>
+              <a href="../html/higiene_bucal.html">
+                <p class="nome-oficina">Higiene bucal</p>
+              </a>
+            </b>
+          </div>
+          <div class="mySlides-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a
+            excepturi voluptatem accusantium consequatur quidem harum officia,
+            voluptate, perspiciatis quibusdam maiores debitis. Harum, quas!
+            Debitis deleniti qui asperiores fugiat ipsa.
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <div class="mySlides-imagem">
+            <img src="../img/saudavel.png" alt="aleatoria" />
+          </div>
+          <div class="mySlides-titulo">
+            <b>
+              <a href="../html/alimentacao.html">
+                <p class="nome-oficina">Alimentação</p>
+              </a>
+            </b>
+          </div>
+          <div class="mySlides-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a
+            excepturi voluptatem accusantium consequatur quidem harum officia,
+            voluptate, perspiciatis quibusdam maiores debitis. Harum, quas!
+            Debitis deleniti qui asperiores fugiat ipsa.
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <div class="mySlides-imagem">
+            <img src="../img/saudavel.png" alt="aleatoria" />
+          </div>
+          <div class="mySlides-titulo">
+            <b>
+              <a href="../html/higiene_ambiental.html">
+                <p class="nome-oficina">Higiene Ambiental</p>
+              </a>
+            </b>
+          </div>
+          <div class="mySlides-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a
+            excepturi voluptatem accusantium consequatur quidem harum officia,
+            voluptate, perspiciatis quibusdam maiores debitis. Harum, quas!
+            Debitis deleniti qui asperiores fugiat ipsa.
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <div class="mySlides-imagem">
+            <img src="../img/saudavel.png" alt="aleatoria" />
+          </div>
+          <div class="mySlides-titulo">
+            <b>
+              <a href="../html/jogos.html">
+                <p class="nome-oficina">Jogos</p>
+              </a>
+            </b>
+          </div>
+          <div class="mySlides-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a
+            excepturi voluptatem accusantium consequatur quidem harum officia,
+            voluptate, perspiciatis quibusdam maiores debitis. Harum, quas!
+            Debitis deleniti qui asperiores fugiat ipsa.
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br>
+      </section>
+
+      <div class="span" style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+      <br>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="social-media">
+            <a href="https://www.instagram.com/hsi_ifal">
+              <img src="/assets/img/instagram.png" alt="instagram-logo" />
+            </a>
+            <a href="https://instagram.com/cas_arapiracaal">
+              <img src="/assets/img/instagram.png" alt="instagram-logo" />
+            </a>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="index.html">Página Inical</a></li>
+              <li><a href="/assets/html/sobre.html">Sobre</a></li>
+              <li><a href="/assets/html/oficina.html">Oficinas</a></li>
+              <li><a href="/assets/html/comunidade.html">Comunidade</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

@@ -448,6 +448,11 @@ footer {
   animation-duration: 1.5s;
 }
 
+/* Adicione esta classe no seu CSS */
+.slideshow-container.hidden {
+  display: none;
+}
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}

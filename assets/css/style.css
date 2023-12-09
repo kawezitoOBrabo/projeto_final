@@ -458,6 +458,23 @@ footer {
   to {opacity: 1}
 }
 
+/*Estilos para jogos*/
+.jogos .jogos-texto{
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 3vh;
+}
+
+.jogos-lista ol li{
+  padding: 2vh;
+  font-size: 1em;
+  line-height: 1.5;
+}
+.jogos-lista ol{
+    margin-bottom: 5vh;
+}
+
 /* Estilos para os cards dos jogos */
 .jogos .card-jogo {
   margin: 20px;

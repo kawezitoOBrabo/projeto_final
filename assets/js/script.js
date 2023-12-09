@@ -2,9 +2,11 @@ let ul = document.querySelector('nav .ul');
 
 function openMenu(){
   ul.classList.add('open')
+    document.querySelector('.slideshow-container').classList.add('hidden'); // Oculta o slideshow
 }
 function closeMenu(){
   ul.classList.remove('open')
+  document.querySelector('.slideshow-container').classList.remove('hidden'); // Exibe o slideshow novamente
 }
 
 let slideIndex = 1;

@@ -1,13 +1,16 @@
 let ul = document.querySelector('nav .ul');
 
 function openMenu(){
-  ul.classList.add('open')
-    document.querySelector('.slideshow-container').classList.add('hidden'); // Oculta o slideshow
+  ul.classList.add('open');
+  document.querySelector('.slideshow-container').classList.add('hidden');
 }
+
 function closeMenu(){
-  ul.classList.remove('open')
-  document.querySelector('.slideshow-container').classList.remove('hidden'); // Exibe o slideshow novamente
+  ul.classList.remove('open');
+  document.querySelector('.slideshow-container').classList.remove('hidden');
 }
+
+
 
 let slideIndex = 1;
 showSlides(slideIndex);

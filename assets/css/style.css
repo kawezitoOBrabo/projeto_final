@@ -473,6 +473,7 @@ footer {
 }
 .jogos-lista ol{
     margin-bottom: 5vh;
+    margin-left: 2vh;
 }
 
 /* Estilos para os cards dos jogos */

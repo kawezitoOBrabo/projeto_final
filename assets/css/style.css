@@ -351,8 +351,9 @@ footer {
 }
 
 .depoimentos .card-item img{
-  border-radius: 50px;
-  width: 80px;
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
   display: block;
   margin: 10px auto;
 }

@@ -337,6 +337,16 @@ footer {
   text-align: center;
 }
 
+.depoimentos .nome-usuario{
+  text-align: center;
+}
+
+.depoimentos .depoimento-usuario{
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .cards{
   display: flex;
   justify-content: center;

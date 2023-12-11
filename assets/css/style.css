@@ -305,8 +305,10 @@ footer {
 .reuniao-texto p {
   font-size: 1em; /* Tamanho do texto */
   color: #333; /* Cor do texto */
-  text-align: left; /* Alinhamento do texto */
+  text-align:  justify; /* Alinhamento do texto */
   margin: 10px 0; /* Espaçamento entre parágrafos */
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .reuniao-texto img {
@@ -315,8 +317,6 @@ footer {
 }
 
 .reuniao-texto .text {
-  padding-left: 20%;
-  padding-right: 20%;
   text-align: justify;
   line-height: 1.5;
 }

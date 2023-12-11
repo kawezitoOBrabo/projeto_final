@@ -315,7 +315,8 @@ footer {
 }
 
 .reuniao-texto .text {
-  padding-left: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
   text-align: justify;
   line-height: 1.5;
 }

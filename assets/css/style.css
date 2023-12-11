@@ -203,12 +203,14 @@ nav .close-icon {
   display: flex;
   text-align: justify;
   line-height: 1.5;
-  margin-right: 40%;
+  padding-right: 20%;
+  padding-left: 20%;
   font-size: 1em;
 }
 
 .higiene .higiene-texto {
   padding: 2em;
+  text-align: center; /* Centralizar o texto */
 }
 
 #criancas-surdas .titulo {
@@ -228,7 +230,8 @@ nav .close-icon {
   display: flex;
   text-align: justify;
   line-height: 1.5;
-  margin-left: 40%;
+  padding-right: 20%;
+  padding-left: 20%;
   margin-right: 0;
 }
 

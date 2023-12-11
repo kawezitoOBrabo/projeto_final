@@ -598,9 +598,12 @@ footer {
 }
 
 .explicacao-oficina{
-  margin: 10px 20px 10px 20px;
+  margin: 5% 5% 5% 5%;
   text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
 }
+
 /* Media Queries */
 
 /* Media Querie (max-width: 768px) */

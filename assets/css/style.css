@@ -138,11 +138,12 @@ nav .close-icon {
 }
 
 .banner .banner-texto h1 {
-  font-size: xx-large;
+  font-size: 5em;
   color: black;
   visibility: visible;
   display: block;
   text-align: center;
+  font-family: serif;
 }
 
 .banner .banner-texto p {

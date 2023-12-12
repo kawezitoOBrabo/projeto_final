@@ -177,7 +177,7 @@ nav .close-icon {
   font-family: "Courier New", Courier, monospace;
   width: 100%;
   padding: 3% 3% 3% 3%;
-  background-color: rgb(129 201 250);
+  background-color: #98c3ed;
 }
 
 .Higiene .titulo h3 {
@@ -236,7 +236,7 @@ nav .close-icon {
 }
 
 #criancas-surdas {
-  background-color: #4f9cf9;
+  background-color: #98c3ed;
   padding: 2em;
   text-align: center;
 }

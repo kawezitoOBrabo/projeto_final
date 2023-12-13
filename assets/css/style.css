@@ -81,6 +81,10 @@ nav ul {
   align-items: center;
 }
 
+nav a img{
+  max-width: 40%;
+}
+
 nav ul a {
   color: black;
   margin: 0 25px;

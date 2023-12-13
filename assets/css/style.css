@@ -243,15 +243,6 @@ nav .close-icon {
   margin: 10px 0;
 }
 
-#criancas-surdas .container .higiene-texto .text {
-  display: flex;
-  text-align: justify;
-  line-height: 1.5;
-  padding-right: 20%;
-  padding-left: 20%;
-  margin-right: 0;
-}
-
 #criancas-surdas {
   background-color: rgb(152 195 237);
   padding: 2em;
@@ -674,18 +665,10 @@ footer {
     display: flex;
     text-align: justify;
     line-height: 1.5;
-    margin-right: 0;
-  }
-
-  #criancas-surdas .container .higiene-texto .text {
-    display: flex;
-    text-align: justify;
-    line-height: 1.5;
     padding-right: 0;
     padding-left: 0;
-    margin-left: 0;
+    margin-right: 0;
   }
-  /* Página Principal */
 
   /* Página Sobre */
   .reuniao-texto p{
@@ -800,14 +783,14 @@ footer {
   .higiene .container .higiene-texto p {
     font-size: 0.7em;
   }
-
-  #criancas-surdas .container .higiene-texto .text {
+  
+  .higiene .container .higiene-texto p {
     display: flex;
     text-align: justify;
     line-height: 1.5;
-    padding-right: 0%;
-    padding-left: 0%;
-    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
   }
 
   #criancas-surdas .titulo {
@@ -914,16 +897,16 @@ footer {
   .higiene .container .higiene-texto p {
     font-size: 0.6em;
   }
-
-  #criancas-surdas .container .higiene-texto .text {
+  
+  .higiene .container .higiene-texto p {
     display: flex;
     text-align: justify;
     line-height: 1.5;
-    padding-right: 0%;
-    padding-left: 0%;
-    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
   }
-
+  
   #criancas-surdas .titulo {
     display: flex;
     background-color: #4f9cf9;

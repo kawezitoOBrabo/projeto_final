@@ -185,6 +185,41 @@ nav .close-icon {
   font-size: 5vh;
   font-family: cursive;
 }
+  .Higiene {
+    text-align: center;
+  }
+
+  .titulo {
+    position: relative;
+    display: inline-block;
+  }
+
+  .titulo h3 {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 0 10px;
+  }
+
+  .titulo::before,
+  .titulo::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 25%;
+    border-bottom: 1px solid black;
+    z-index: 0;
+  }
+
+  .titulo::before {
+    right: 100%;
+    margin-right: 10px;
+  }
+
+  .titulo::after {
+    left: 100%;
+    margin-left: 10px;
+  }
 
 .text {
   margin-bottom: 15%;

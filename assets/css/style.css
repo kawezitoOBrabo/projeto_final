@@ -662,8 +662,8 @@ footer {
   }
 
   /* Página Inicial */
- .banner-texto h1 {
-    font-size: xx-large;
+ .banner .banner-texto h1 {
+    font-size: 3em;
   }
 
   .higiene .container .higiene-texto p {

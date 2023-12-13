@@ -192,6 +192,7 @@ nav .close-icon {
   font-family: cursive;
   margin: 10px 0;
 }
+
 .text {
   margin-bottom: 15%;
   text-align: center; /* Centralizar o texto */
@@ -221,9 +222,10 @@ nav .close-icon {
   text-align: center; /* Centralizar o texto */
 }
 
-#criancas-surdas .titulo {
+#Criancas-surdas .titulo {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   font-family: "Courier New", Courier, monospace;
   font-size: xx-large;
   width: 100%;
@@ -232,6 +234,11 @@ nav .close-icon {
   background-color: white;
   box-shadow: 0px 5px 5px 0px black;
   border-radius: 0.7em;
+}
+
+.Criancas-surdas .titulo hr{
+  width: 25%;
+  border: 1px solid black;
 }
 
 #criancas-surdas .container .higiene-texto .text {

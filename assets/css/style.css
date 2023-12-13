@@ -674,8 +674,6 @@ footer {
     display: flex;
     text-align: justify;
     line-height: 1.5;
-    padding-right: 0;
-    padding-left: 0;
     margin-right: 0;
   }
 
@@ -683,6 +681,8 @@ footer {
     display: flex;
     text-align: justify;
     line-height: 1.5;
+    padding-right: 0;
+    padding-left: 0;
     margin-left: 0;
   }
   /* Página Principal */
@@ -805,8 +805,8 @@ footer {
     display: flex;
     text-align: justify;
     line-height: 1.5;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0%;
+    padding-left: 0%;
     margin-left: 0;
   }
 
@@ -919,8 +919,8 @@ footer {
     display: flex;
     text-align: justify;
     line-height: 1.5;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0%;
+    padding-left: 0%;
     margin-left: 0;
   }
 

@@ -662,7 +662,7 @@ footer {
   }
 
   /* Página Inicial */
-  #h1 .banner-texto h1 {
+ .banner-texto h1 {
     font-size: xx-large;
   }
 
@@ -783,7 +783,7 @@ footer {
   }
 
   /* Página Inicial */
-  #h1 .banner-texto h1 {
+  .banner-texto h1 {
     font-size: x-large;
   }
 
@@ -895,7 +895,7 @@ footer {
   }
 
   /* Página Inicial */
-  #h1 .banner-texto h1 {
+  .banner-texto h1 {
     font-size: x-large;
   }
 

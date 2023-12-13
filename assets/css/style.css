@@ -174,53 +174,24 @@ nav .close-icon {
 /*Higiene e Imagem */
 .Higiene .titulo {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   font-family: "Courier New", Courier, monospace;
   width: 100%;
   padding: 3% 3% 3% 3%;
   background-color: rgb(152 195 237);
 }
 
+.Higiene .titulo hr {
+  width: 25%;
+  border: 1px solid black;
+}
+
 .Higiene .titulo h3 {
   font-size: 5vh;
   font-family: cursive;
+  margin: 10px 0;
 }
-  .Higiene {
-    text-align: center;
-  }
-
-  .titulo {
-    position: relative;
-    display: inline-block;
-  }
-
-  .titulo h3 {
-    position: relative;
-    z-index: 1;
-    background-color: white;
-    padding: 0 10px;
-  }
-
-  .titulo::before,
-  .titulo::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 25%;
-    border-bottom: 1px solid black;
-    z-index: 0;
-  }
-
-  .titulo::before {
-    right: 100%;
-    margin-right: 10px;
-  }
-
-  .titulo::after {
-    left: 100%;
-    margin-left: 10px;
-  }
-
 .text {
   margin-bottom: 15%;
   text-align: center; /* Centralizar o texto */

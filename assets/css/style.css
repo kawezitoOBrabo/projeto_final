@@ -662,10 +662,14 @@ footer {
   }
 
   /* Página Inicial */
- .banner .banner-texto h1 {
+  #h1 .banner-texto h1 {
+    font-size: 2em;
+  }
+  
+  .banner .banner-texto h1 {
     font-size: 3em;
   }
-
+  
   .higiene .container .higiene-texto p {
     display: flex;
     text-align: justify;

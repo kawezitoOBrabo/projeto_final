@@ -674,6 +674,8 @@ footer {
     display: flex;
     text-align: justify;
     line-height: 1.5;
+    padding-right: 0;
+    padding-left: 0;
     margin-right: 0;
   }
 

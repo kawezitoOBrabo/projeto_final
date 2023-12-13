@@ -58,6 +58,17 @@ header {
   background-attachment: fixed;
 }
 
+header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('https://kawezitoobrabo.github.io/projeto_final/assets/img/alfabeto_em_libras.png');
+  background-size: cover;
+  background-position: bottom;
+  z-index: -1;
+  opacity: 0.5;
+}
+
 nav {
   display: flex;
   justify-content: space-between;

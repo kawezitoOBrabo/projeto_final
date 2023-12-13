@@ -53,12 +53,12 @@ p {
 }
 
 header {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
-header::after {
+header::before {
   content: "";
   position: absolute;
   inset: 0;

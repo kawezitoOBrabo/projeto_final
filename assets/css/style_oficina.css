@@ -15,8 +15,8 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.gallery_tot{          
-  padding-bottom: 5%;
+.gallery_tot {
+    padding: 0% 0% 10% 0;
 }
 
 .gallery {
@@ -311,6 +311,10 @@
     font-size: 200%;
   }
 
+  .gallery_tot {
+    padding: 0% 0% 25% 0;
+  }
+  
   .gallery {
     margin: 1px;
     margin-left: 50px;
@@ -360,6 +364,10 @@
     font-size: 170%;
   }
 
+  .gallery_tot {
+    padding: 0% 0% 50% 0;
+  }
+  
   .gallery {
     margin: 1px;
     margin-left: 50px;
@@ -434,6 +442,10 @@
     font-size: 145%;
   }
 
+  .gallery_tot {
+    padding: 0% 0% 70% 0;
+  }
+  
   .gallery {
     margin: 1px;
     margin-left: 50px;
@@ -469,6 +481,10 @@
 
   .linha {
     margin-bottom: 75%;
+  }
+
+  .gallery_tot {
+    padding: 0% 0% 80% 0;
   }
 
   .gallery {

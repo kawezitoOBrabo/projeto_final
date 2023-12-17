@@ -1239,7 +1239,7 @@ footer {
   }
 
   .titulo_menu {
-    top: 10%;
+    top: 15%;
     font-size: 92%;
   }
 
@@ -1277,7 +1277,7 @@ footer {
 
 @media (max-width: 400px) {
   .titulo_menu {
-    top: 11%;
+    top: 15%;
     font-size: 85%;
   }
 
@@ -1318,7 +1318,7 @@ footer {
   }
 
   .titulo_menu {
-    top: 10%;
+    top: 15%;
     font-size: 70%;
   }
 

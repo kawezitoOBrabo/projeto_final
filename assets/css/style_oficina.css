@@ -496,6 +496,12 @@
   }
 }
 
+@media (max-width: 550px) {
+  .gallery_tot {
+    padding: 0% 0% 90% 0;
+  }
+}
+
 @media (max-width: 500px) {
   .titulo_menu2 {
     top: 19%;
@@ -552,7 +558,17 @@
   }
 }
 
+@media (max-width: 450px) {
+  .gallery_tot {
+    padding: 0% 0% 125% 0;
+  }
+}
+
 @media (max-width: 400px) {
+  .gallery_tot {
+    padding: 0% 0% 150% 0;
+  }
+  
   .gallery {
     margin: 1px;
     margin-left: 30px;
@@ -592,6 +608,10 @@
 }
 
 @media (max-width: 350px) {
+  .gallery_tot {
+    padding: 0% 0% 180% 0;
+  }
+  
   .gallery {
     margin: 1px;
     margin-left: 30px;
@@ -606,6 +626,10 @@
 }
 
 @media (max-width: 300px) {
+  .gallery_tot {
+    padding: 0% 0% 230% 0;
+  }
+  
   .gallery {
     margin: 1px;
     margin-left: 26px;

@@ -610,6 +610,46 @@ footer {
     font-size: 230%;
   }
 
+  .ifal {
+    height: 15%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 15%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
+  .ifal2 {
+    height: 15%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 15%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
   .menu a {
     margin: 9px;
     font-size: 95%;
@@ -645,6 +685,46 @@ footer {
     font-size: 220%;
   }
 
+  .ifal {
+    height: 14%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 14%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
+  .ifal2 {
+    height: 14%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 14%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
   .menu a {
     margin: 9px;
     font-size: 95%;
@@ -680,6 +760,46 @@ footer {
     font-size: 175%;
   }
 
+  .ifal {
+    height: 13%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 13%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
+  .ifal2 {
+    height: 13%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 13%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
   .menu {
     margin-top: 1%;
     font-size: 132%;
@@ -712,7 +832,46 @@ footer {
     top: 22%;
     font-size: 155%;
   }
-
+  .ifal {
+    height: 12%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 12%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
+  .ifal2 {
+    height: 12%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 12%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
   .menu {
     margin-top: 2%;
     font-size: 125%;
@@ -750,6 +909,46 @@ footer {
     font-size: 147%;
   }
 
+  .ifal {
+    height: 11%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 11%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
+  .ifal2 {
+    height: 11%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 11%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
   .menu {
     margin-top: 2%;
     font-size: 125%;
@@ -794,6 +993,46 @@ footer {
     font-size: 120%;
   }
 
+  .ifal {
+    height: 10%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 10%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
+  .ifal2 {
+    height: 10%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 10%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
   .menu {
     margin-top: 2%;
     font-size: 110%;
@@ -843,11 +1082,51 @@ footer {
     top: 15%;
     font-size: 110%;
   }
+  
+  .ifal {
+    height: 9%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 9%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
+  
+  .ifal2 {
+    height: 9%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 9%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
+  }
 
   .menu {
     margin-top: 2%;
     font-size: 110%;
-    margin-right: 19%;
+    margin-right: 4%;
   }
 
   .menu a {
@@ -890,23 +1169,43 @@ footer {
 
 @media (max-width: 450px) {
   .ifal {
-    width: 9%;
-    margin-left: 0;
+    height: 8%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
   }
-
+  
   .propex {
-    margin-left: 91%;
-    width: 9%;
+    height: 8%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
   }
-
+  
   .ifal2 {
-    width: 9%;
-    margin-left: 0;
+    height: 8%;
+    background: gainsboro;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: -0.3%;
   }
-
+  
   .propex2 {
-    width: 9%;
-    margin-left: 91%;
+    height: 8%;
+    border-radius: 100% 0% 0% 100%;
+    background: gainsboro;
+    position: absolute;
+    display: flex;
+    margin-top: -57%;
+    margin-left: 92.5%;
   }
 
   .ifal3 {
@@ -947,7 +1246,7 @@ footer {
   .menu {
     margin-top: 2%;
     font-size: 70%;
-    margin-right: 20%;
+    margin-right: 15%;
   }
 
   .footer-col h4 {

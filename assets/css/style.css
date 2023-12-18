@@ -14,6 +14,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  opacity: 0.9;
 }
 
 section,
@@ -133,24 +134,26 @@ p {
 
 .titulo_menu {
   position: absolute;
-  top: 30%;
+  top: 25%;
   right: 5%;
   left: 5%;
-  font-size: 350%;
-  color: white;
+  font-size: 250%;
+  color: #000000;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Arial", Times, serif;
+  text-shadow: #ffffff 0.1em 0.1em 0.2em;
 }
 
 .titulo_menu2 {
   position: absolute;
-  top: 50%;
+  top: 25%;
   right: 5%;
   left: 5%;
-  font-size: 400%;
-  color: white;
+  font-size: 250%;
+  color: #000000;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Arial", Times, serif;
+  text-shadow: #ffffff 0.1em 0.1em 0.2em;
 }
 /**/
 

@@ -455,7 +455,7 @@ footer {
   width: 15%;
   display: flex;
   cursor: pointer;
-  visibility: hidden;
+  visibility: visible;
   transition: all 0.4s ease;
 }
 

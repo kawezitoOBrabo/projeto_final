@@ -132,6 +132,15 @@ p {
   color: rgba(236, 233, 233, 0.815);
 }
 
+figcaption.legenda {
+    text-align: center;
+    margin-top: 1%;
+}
+
+figcaption.fonte {
+    text-align: center;
+}
+
 .titulo_menu {
   position: absolute;
   top: 45%;

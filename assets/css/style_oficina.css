@@ -108,6 +108,11 @@
   margin-bottom: 6%;
 }
 
+.texto_oficina p {
+  margin-bottom: 5%;
+  text-indent: 4%;
+}
+
 .img_tam {
   width: 70%;
 }

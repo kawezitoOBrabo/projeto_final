@@ -150,10 +150,10 @@ p {
   right: 5%;
   left: 5%;
   font-size: 250%;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   font-family: Georgia, "Arial", Times, serif;
-  text-shadow: #ffffff 0.1em 0.1em 0.2em;
+  text-shadow: #000000 0.1em 0.1em 0.2em;
 }
 /**/
 

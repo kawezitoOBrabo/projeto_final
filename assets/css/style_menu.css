@@ -76,6 +76,7 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1%;
   width: 45%;
 }
 
@@ -103,7 +104,6 @@ hr {
   }
 
   .img_text {
-    margin-top: 6%;
     width: 45%;
   }
 
@@ -133,7 +133,6 @@ hr {
   }
 
   .img_text {
-    margin-top: 6%;
     width: 55%;
   }
 

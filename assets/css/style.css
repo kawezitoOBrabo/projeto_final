@@ -128,6 +128,7 @@ p {
 .menu a {
   color: white;
   margin: 20px;
+  text-decoration: underline;
 }
 
 .menu :hover {

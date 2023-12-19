@@ -449,8 +449,9 @@ footer {
 }
 
 .mundo {
-  width: 35%;
-  margin-left: 8%;
+  display: flex;
+  width: 100%;
+  padding-left: 20%;
 }
 
 .topo {
@@ -1152,10 +1153,6 @@ footer {
     font-size: 11px;
     margin-bottom: -1%;
   }
-
-  .mundo {
-    width: 50%;
-  }
 }
 
 @media (max-width: 700px) {
@@ -1235,10 +1232,6 @@ footer {
   .footer-col ul li a {
     font-size: 10px;
     margin-bottom: -1%;
-  }
-
-  .mundo {
-    width: 48%;
   }
 
   .topo {
@@ -1332,12 +1325,6 @@ footer {
     margin-bottom: -1%;
   }
 
-  .mundo {
-    width: 70%;
-    margin-top: 15%;
-    margin-left: -2%;
-  }
-
   .topo {
     bottom: 10%;
     right: 2%;
@@ -1427,12 +1414,6 @@ footer {
   .footer-col ul li a {
     font-size: 9px;
     margin-bottom: -1%;
-  }
-
-  .mundo {
-    width: 70%;
-    margin-top: 15%;
-    margin-left: -2%;
   }
 
   .topo {
@@ -1529,12 +1510,6 @@ footer {
     height: 9%;
     width: 9%;
   }
-
-  .mundo {
-    width: 160%;
-    margin-top: 25%;
-    margin-left: -42%;
-  }
 }
 
 @media (max-width: 400px) {
@@ -1561,12 +1536,6 @@ footer {
     right: 8%;
     height: 9%;
     width: 9%;
-  }
-
-  .mundo {
-    width: 160%;
-    margin-top: 25%;
-    margin-left: -42%;
   }
 }
 
@@ -1601,12 +1570,6 @@ footer {
     bottom: 55.2%;
     right: 6%;
   }
-
-  .mundo {
-    width: 160%;
-    margin-top: 60%;
-    margin-left: -50%;
-  }
 }
 
 @media (max-width: 300px) {
@@ -1631,11 +1594,5 @@ footer {
   .topo {
     bottom: 59%;
     right: 6%;
-  }
-
-  .mundo {
-    width: 190%;
-    margin-top: 80%;
-    margin-left: -70%;
   }
 }

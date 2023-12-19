@@ -1240,6 +1240,9 @@ footer {
     height: 11%;
     width: 11%;
   }
+
+  .topo p{
+    font-size: 50%;
 }
 
 @media (max-width: 600px) {

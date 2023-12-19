@@ -562,6 +562,40 @@
   .linha {
     margin-bottom: 10%;
   }
+
+  .card {
+    background-color: white;
+    width: 160px;
+    height: 210px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    margin-right: 2%;
+    margin-bottom: 20px;
+  }
+
+  .btn-oficina {
+    background-color: #3e9ffa;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 70%;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .card h1 {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 40%;
+  }
+
+  .card h2 {
+    font-size: 0.6rem;
+    color: #aaaa;
+  }
 }
 
 @media (max-width: 450px) {
@@ -645,6 +679,16 @@
 
   .linha {
     margin-bottom: 10%;
+  }
+
+  .card {
+    background-color: white;
+    width: 130px;
+    height: 180px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    margin-right: 2%;
+    margin-bottom: 20px;
   }
 }
 

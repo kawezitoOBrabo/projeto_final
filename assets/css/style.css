@@ -466,6 +466,10 @@ footer {
   border-radius: 50%;
   background: unset;
 }
+
+.topo.active img{
+  width: 50%;
+}
 /* Seção de Reuniões */
 .reunioes {
   background-color: #f7f7f7; /* Cor de fundo da seção */

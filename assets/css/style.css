@@ -460,6 +460,14 @@ footer {
   transition: all 0.4s ease;
 }
 
+.topo p {
+  display: flex;
+  bottom: 100%;
+  position: absolute;
+  font-size: 110%;
+  text-shadow: 1px 1px black;
+}
+
 .topo.active {
   opacity: 1;
   visibility: visible;

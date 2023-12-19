@@ -1,4 +1,4 @@
-.titulo_menu2 {
+ .titulo_menu2 {
     position: absolute;
     top: 50%;
     right: 5%;
@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(152 195 237);
+    background-color: rgb(125 199 245);
     margin-top: 5%;
   }
   

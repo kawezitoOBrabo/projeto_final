@@ -14,7 +14,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  opacity: 0.9;
 }
 
 section,
@@ -111,6 +110,7 @@ p {
 
 .back_index {
   width: 100%;
+  opacity: 0.9;
 }
 
 .menu {

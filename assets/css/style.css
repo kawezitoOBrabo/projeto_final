@@ -53,7 +53,7 @@ p {
   position: absolute;
   display: flex;
   margin-top: -57%;
-  margin-left: 92.5%;
+  margin-left: 91.7%;
 }
 
 .ifal2 {
@@ -73,7 +73,7 @@ p {
   position: absolute;
   display: flex;
   margin-top: -57%;
-  margin-left: 92.5%;
+  margin-left: 91.7%;
 }
 
 .ifal3 {
@@ -88,7 +88,7 @@ p {
   width: 12%;
   position: absolute;
   display: flex;
-  margin-left: 88%;
+  margin-left: 91.7%;
   margin-top: -49%;
 }
 
@@ -104,7 +104,7 @@ p {
   width: 12%;
   position: absolute;
   display: flex;
-  margin-left: 88%;
+  margin-left: 91.7%;
   margin-top: -51.5%;
 }
 
@@ -552,12 +552,112 @@ footer {
 
 
 /* Media Queries */
+
+@media (max-width: 1500px) {
+  .ifal {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 90%;
+  }
+  
+  .ifal2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 90%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 90%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 90%;
+    margin-top: -51.5%;
+  }
+
+}
+
 @media (max-width: 1400px) {
   .titulo_menu {
     top: 37%;
     font-size: 255%;
   }
 
+  .ifal {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 89.3%;
+  }
+  
+  .ifal2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 89.3%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 89.3%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 89.3%;
+    margin-top: -51.5%;
+  }
+  
   .menu {
     margin-top: 1%;
   }
@@ -586,12 +686,110 @@ footer {
   }
 }
 
+@media (max-width: 1300px) {
+  .ifal {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 88.3%;
+  }
+  
+  .ifal2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 88.3%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 88.3%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 88.3%;
+    margin-top: -51.5%;
+  }
+}
+
 @media (max-width: 1200px) {
   .titulo_menu {
     top: 32%;
     font-size: 230%;
   }
 
+  .ifal {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 87%;
+  }
+  
+  .ifal2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: -0.3%;
+  }
+  
+  .propex2 {
+    height: 17%;
+    margin-top: -57%;
+    margin-left: 87%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -51.5%;
+  }
+  
   .menu a {
     margin: 10px;
     font-size: 100%;
@@ -625,42 +823,50 @@ footer {
 
   .ifal {
     height: 15%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
     height: 15%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 87%;
   }
   
   .ifal2 {
     height: 15%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
     height: 15%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 87%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -51.5%;
   }
   
   .menu a {
@@ -699,43 +905,51 @@ footer {
   }
 
   .ifal {
-    height: 14%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
-    height: 14%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 87%;
   }
   
   .ifal2 {
-    height: 14%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
-    height: 14%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 87%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -51.5%;
   }
   
   .menu a {
@@ -773,46 +987,53 @@ footer {
     font-size: 175%;
   }
 
-  .ifal {
-    height: 13%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+.ifal {
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
-    height: 13%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 87%;
   }
   
   .ifal2 {
-    height: 13%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
-    height: 13%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 87%;
   }
   
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -51.5%;
+  }  
   .menu {
     margin-top: 1%;
     font-size: 132%;
@@ -845,46 +1066,54 @@ footer {
     top: 22%;
     font-size: 155%;
   }
+  
   .ifal {
-    height: 12%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
-    height: 12%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 86%;
   }
   
   .ifal2 {
-    height: 12%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
-    height: 12%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 86%;
   }
   
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 86%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 86%;
+    margin-top: -51.5%;
+  }  
   .menu {
     margin-top: 2%;
     font-size: 125%;
@@ -923,43 +1152,51 @@ footer {
   }
 
   .ifal {
-    height: 11%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
-    height: 11%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 86%;
   }
   
   .ifal2 {
-    height: 11%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
-    height: 11%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 86%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 86%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 86%;
+    margin-top: -51.5%;
   }
   
   .menu {
@@ -1007,44 +1244,52 @@ footer {
   }
 
   .ifal {
-    height: 10%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
-    height: 10%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 83%;
   }
   
   .ifal2 {
-    height: 10%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
-    height: 10%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 83%;
   }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 83%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 83%;
+    margin-top: -51.5%;
+  }  
   
   .menu {
     margin-top: 2%;
@@ -1097,43 +1342,51 @@ footer {
   }
   
   .ifal {
-    height: 9%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
-    height: 9%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 83.5%;
   }
   
   .ifal2 {
-    height: 9%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
-    height: 9%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 83.5%;
+  }
+  
+  .ifal3 {
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
+  }
+  
+  .propex3 {
+    width: 12%;
+    margin-left: 83.5%;
+    margin-top: -49%;
+  }
+  
+  .ifal4 {
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
+  }
+  
+  .propex4 {
+    width: 12%;
+    margin-left: 83.5%;
+    margin-top: -51.5%;
   }
 
   .menu {
@@ -1182,67 +1435,53 @@ footer {
 
 @media (max-width: 450px) {
   .ifal {
-    height: 8%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex {
-    height: 8%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 83.5%;
   }
   
   .ifal2 {
-    height: 8%;
-    background: gainsboro;
-    border-radius: 0 100% 100% 0;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
     margin-left: -0.3%;
   }
   
   .propex2 {
-    height: 8%;
-    border-radius: 100% 0% 0% 100%;
-    background: gainsboro;
-    position: absolute;
-    display: flex;
+    height: 15%;
     margin-top: -57%;
-    margin-left: 92.5%;
+    margin-left: 83.5%;
   }
-
+  
   .ifal3 {
-    width: 9%;
-    margin-left: 0;
+    width: 10%;
+    margin-top: -49%;
+    margin-left: -1%;
   }
-
+  
   .propex3 {
-    width: 9%;
-    margin-left: 91%;
+    width: 12%;
+    margin-left: 83.5%;
+    margin-top: -49%;
   }
-
+  
   .ifal4 {
-    width: 9%;
-    margin-top: -52%;
-    margin-left: 0;
+    width: 10%;
+    margin-top: -51.5%;
+    margin-left: -1%;
   }
-
+  
   .propex4 {
-    width: 9%;
-    margin-top: -52.5%;
-    margin-left: 91%;
+    width: 12%;
+    margin-left: 83.5%;
+    margin-top: -51.5%;
   }
-
+  
   .back_index {
     width: 100%;
   }

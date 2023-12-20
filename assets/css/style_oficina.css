@@ -547,6 +547,15 @@ img.img_text {
     font-size: 135%;
   }
 
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container-cards {
+    margin: 1%;
+  }
+  
   .linha {
     margin-bottom: 10%;
   }
@@ -598,6 +607,7 @@ img.img_text {
       text-align: center;
       margin-top: 20%;
   }
+  
   .card h2 {
     font-size: 0.6rem;
     color: #aaaa;
@@ -646,6 +656,25 @@ img.img_text {
     margin-left: 6%;
     margin-right: 6%;
     font-size: 70%;
+  }
+
+  .card h1 {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .btn-oficina {
+    background-color: #3e9ffa;
+    height: 20px;
+    border: none;
+    padding: 4px;
+    width: 90%;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
   }
 }
 

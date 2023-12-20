@@ -43,7 +43,8 @@ hr{
 }
 
 .img_jogos{
-  width: 25%;
+  width: 250px;
+  height: 200px;
   display: block;
   margin-top: 7%;
   margin-bottom: 7%;

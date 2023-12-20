@@ -179,6 +179,13 @@
   width: 70%;
 }
 
+img.img_text {
+    width: 50%;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
 /* Responsivo */
 
 @media (max-width: 1400px) {

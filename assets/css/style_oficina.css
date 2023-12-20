@@ -608,16 +608,23 @@ img.img_text {
     margin-bottom: 10%;
   }
 
+
+  .card img {
+    height: 100px;
+    width: 230px;
+    border-radius: 12px;
+  }
+
   .card {
     background-color: white;
-    width: 160px;
+    width: 130px;
     height: 210px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
     margin-right: 2%;
     margin-bottom: 20px;
   }
-
+  
   .btn-oficina {
     background-color: #3e9ffa;
     height: 30px;

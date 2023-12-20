@@ -585,13 +585,12 @@
     border-radius: 12px;
     text-align: center;
   }
-
+  
   .card h1 {
-    font-size: 0.9rem;
-    text-align: center;
-    margin-top: 40%;
+      font-size: 0.9rem;
+      text-align: center;
+      margin-top: 20%;
   }
-
   .card h2 {
     font-size: 0.6rem;
     color: #aaaa;

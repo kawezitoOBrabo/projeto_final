@@ -94,6 +94,9 @@ hr{
   margin-bottom: 4%;
 }
 
+.texto p{
+  opacity: 100%;
+}
 
 /* Responsivo */
 

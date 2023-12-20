@@ -40,47 +40,39 @@ p {
 }
 
 /**/
-.ifal {
-  height: 17%;
-  background: gainsboro;
-  border-radius: 0 100% 100% 0;
+.ifal{
+  width: 10%;
   position: absolute;
   display: flex;
-  margin-top: -57%;
-  margin-left: -0.3%;
+  margin-top: -44%;
+  margin-left: -0.5%;
 }
 
-.propex {
-  height: 17%;
-  border-radius: 100% 0% 0% 100%;
-  background: gainsboro;
+.propex{
+  width: 12%;
   position: absolute;
   display: flex;
-  margin-top: -57%;
-  margin-left: 91.7%;
+  margin-left: 88%;
+  margin-top: -44%;
 }
 
-.ifal2 {
-  height: 17%;
-  background: gainsboro;
-  border-radius: 0 100% 100% 0;
+.ifal2{
+  width: 10%;
   position: absolute;
   display: flex;
-  margin-top: -57%;
-  margin-left: -0.3%;
+  margin-top: -53.6%;
+  margin-left: -1%;
 }
 
-.propex2 {
-  height: 17%;
-  border-radius: 100% 0% 0% 100%;
-  background: gainsboro;
+.propex2{
+  width: 12%;
   position: absolute;
   display: flex;
-  margin-top: -57%;
-  margin-left: 91.7%;
+  margin-left: 88%;
+  margin-top: -54%;
 }
 
-.ifal3 {
+.ifal3{
   width: 10%;
   position: absolute;
   display: flex;
@@ -88,15 +80,15 @@ p {
   margin-left: -1%;
 }
 
-.propex3 {
+.propex3{
   width: 12%;
   position: absolute;
   display: flex;
-  margin-left: 91.7%;
+  margin-left: 88%;
   margin-top: -49%;
 }
 
-.ifal4 {
+.ifal4{
   width: 10%;
   position: absolute;
   display: flex;
@@ -104,11 +96,11 @@ p {
   margin-left: -1%;
 }
 
-.propex4 {
+.propex4{
   width: 12%;
   position: absolute;
   display: flex;
-  margin-left: 91.7%;
+  margin-left: 88%;
   margin-top: -51.5%;
 }
 

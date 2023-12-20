@@ -179,7 +179,7 @@
   width: 70%;
 }
 
-img.img_text {
+.img_text {
     width: 50%;
     display: flex;
     margin-left: 20%;

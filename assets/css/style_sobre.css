@@ -1327,6 +1327,19 @@
     .navegacao li a {
       font-size: 60%;
     }
+
+   .card{
+    background-color: white;
+    width: 130px;
+    height: 180px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+  }
+
+
   
   }
   

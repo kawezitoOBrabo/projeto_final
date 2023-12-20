@@ -186,6 +186,11 @@ img.img_text {
     margin-top: 5%;
 }
 
+.texto-oficina p{
+  text-indent: 4%;
+  margin-bottom: 2%;
+}
+
 /* Responsivo */
 
 @media (max-width: 1400px) {

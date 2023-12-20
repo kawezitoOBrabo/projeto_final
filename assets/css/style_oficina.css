@@ -686,6 +686,22 @@ img.img_text {
     margin-right: 6%;
     font-size: 70%;
   }
+
+  .card img {
+    height: 100px;
+    width: 230px;
+    border-radius: 12px;
+  }
+
+  .card {
+    background-color: white;
+    width: 130px;
+    height: 210px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    margin-right: 2%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 400px) {

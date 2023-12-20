@@ -560,6 +560,10 @@ footer {
   border: 1px solid black;
 }
 
+.legenda{
+  font-size: 90%;
+  font-style: italic;
+}
 
 /* Media Queries */
 

@@ -567,6 +567,35 @@ img.img_text {
     margin-top: 6%;
     width: 37%;
   }
+  
+  .btn-oficina {
+    background-color: #3e9ffa;
+    height: 20px;
+    border: none;
+    padding: 4px;
+    width: 90%;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .card h1 {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .card {
+    background-color: white;
+    width: 130px;
+    height: 180px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    margin-right: 2%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -657,25 +686,6 @@ img.img_text {
     margin-right: 6%;
     font-size: 70%;
   }
-
-  .card h1 {
-    font-size: 0.7rem;
-    text-align: center;
-    margin-top: 20%;
-  }
-  
-  .btn-oficina {
-    background-color: #3e9ffa;
-    height: 20px;
-    border: none;
-    padding: 4px;
-    width: 90%;
-    color: #fff;
-    font-size: 0.7rem;
-    font-weight: bold;
-    border-radius: 12px;
-    text-align: center;
-  }
 }
 
 @media (max-width: 400px) {
@@ -716,15 +726,6 @@ img.img_text {
     margin-bottom: 10%;
   }
 
-  .card {
-    background-color: white;
-    width: 130px;
-    height: 180px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaaa;
-    margin-right: 2%;
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 350px) {

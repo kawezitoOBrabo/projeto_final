@@ -180,7 +180,8 @@
 }
 
 .img_text {
-    width: 50%;
+    width: 500px;
+    height: 600px;
     display: flex;
     margin-left: 20%;
     margin-top: 5%;
@@ -511,6 +512,14 @@
   .titulo {
     font-size: 135%;
   }
+
+  .img_text {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -545,6 +554,13 @@
     margin-bottom: 10%;
   }
 }
+
+@media (max-width: 650px) {
+  .img_text {
+    margin-left: 13%;
+  }
+}
+
 
 @media (max-width: 600px) {
   .titulo_menu2 {
@@ -601,6 +617,15 @@
     margin-right: 2%;
     margin-bottom: 20px;
   }
+  
+  .img_text {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin-left: 18%;
+    margin-top: 5%;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -653,6 +678,15 @@
     font-size: 0.6rem;
     color: #aaaa;
   }
+
+  .img_text {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin-left: 18%;
+    margin-top: 5%;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -754,6 +788,14 @@
     margin-bottom: 10%;
   }
 
+  .img_text {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+  
 }
 
 @media (max-width: 350px) {
@@ -768,6 +810,15 @@
   .linha {
     margin-bottom: 10%;
   }
+  
+  .img_text {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  
 }
 
 @media (max-width: 300px) {

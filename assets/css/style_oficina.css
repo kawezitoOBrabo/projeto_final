@@ -106,10 +106,10 @@
   margin-top: 10%;
 }
 
-.card{
+.card {
   background-color: white;
-  width: 180px;
-  height: 260px;
+  width: 230px;
+  height: 280px;
   border-radius: 12px;
   box-shadow: 4px 4px 12px #aaaa;
   margin-right: 2%;
@@ -139,9 +139,9 @@
   color: #aaaa;
 }
 
-.card img{
+ .card img {
   height: 50%;
-  width: 180px;
+  width: 230px;
   border-radius: 12px;
 }
 

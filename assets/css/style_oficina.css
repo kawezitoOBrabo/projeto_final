@@ -183,7 +183,7 @@
     width: 500px;
     height: 600px;
     display: flex;
-    margin-left: 20%;
+    margin-left: 26%;
     margin-top: 5%;
 }
 
@@ -438,6 +438,14 @@
     margin-right: 6%;
     font-size: 120%;
   }
+
+  .img_text {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 900px) {
@@ -474,6 +482,14 @@
 
   .titulo {
     font-size: 140%;
+  }
+  
+  .img_text {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    margin-left: 17%;
+    margin-top: 5%;
   }
 }
 

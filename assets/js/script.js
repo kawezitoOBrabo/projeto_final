@@ -22,9 +22,14 @@ function backTop(){
   })
 }
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-let slideIndex = 0;
-showSlides();
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
 
 function showSlides(n) {
   let i;

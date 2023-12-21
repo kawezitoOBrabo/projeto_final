@@ -22,13 +22,15 @@ function backTop(){
   })
 }
 
-let slideIndex = 0;
-showSlides();
+let slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -37,40 +39,14 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  let prevButton = document.querySelector(".prev");
-  let nextButton = document.querySelector(".next");
-
-  // Verifica se n é indefinido (chamada automática) e incrementa slideIndex
-  if (n === undefined) {
-    slideIndex++;
-  } else {
-    slideIndex = n;
-  }
-
-  // Verifica se slideIndex está fora dos limites
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  } else if (slideIndex < 1) {
-    slideIndex = slides.length;
-  }
-
-  // Oculta todos os slides
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-
-  // Remove a classe "active" de todas as bolinhas
   for (i = 0; i < dots.length; i++) {
-    dots[i].classList.remove("active");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
-
-  // Exibe o slide atual
-  slides[slideIndex - 1].style.display = "block";
-
-  // Adiciona a classe "active" à bolinha correspondente ao slide atual
-  dots[slideIndex - 1].classList.add("active");
-
-  // Atualiza a visibilidade das setas de navegação
-  prevButton.style.display = (slideIndex === 1) ? "none" : "block";
-  nextButton.style.display = (slideIndex === slides.length) ? "none" : "block";
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }

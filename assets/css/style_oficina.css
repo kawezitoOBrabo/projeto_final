@@ -656,6 +656,10 @@
   .linha {
     margin-bottom: 10%;
   }
+
+  .img_text {
+    margin-left: 13%;
+  }
 }
 
 @media (max-width: 650px) {

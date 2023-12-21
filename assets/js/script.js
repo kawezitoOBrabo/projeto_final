@@ -23,17 +23,34 @@ function backTop(){
 }
 
 
-let slideIndex = 0;
-showSlides();
-
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+
+  // Oculta todos os slides
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
+
+  // Remove a classe "active" de todas as bolinhas
+  for (i = 0; i < dots.length; i++) {
+    dots[i].classList.remove("active");
+  }
+
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 4 seconds
+
+  // Se o índice for maior que o número de slides, reinicia para o primeiro slide
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+
+  // Exibe o slide atual
+  slides[slideIndex - 1].style.display = "block";
+
+  // Adiciona a classe "active" à bolinha correspondente ao slide atual
+  dots[slideIndex - 1].classList.add("active");
+
+  // Chama a função recursivamente após 4 segundos para o próximo slide
+  setTimeout(showSlides, 4000); // Muda a imagem a cada 4 segundos
 }

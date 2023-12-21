@@ -5,7 +5,7 @@ hr{
 
 .titulo_menu2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 5%;
   left: 5%;
   font-size: 400%;
@@ -100,10 +100,24 @@ hr{
 
 /* Responsivo */
 
+@media (max-width: 1600px) {
+  .titulo_menu2 {
+    position: absolute;
+    top: 34%;
+    right: 5%;
+    left: 5%;
+    font-size: 400%;
+    color: white;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+}
+
 @media (max-width: 1400px) {
 
   .titulo_menu2 {
-    top: 44%;
+    top: 30%;
     font-size: 290%;
   }
   
@@ -134,7 +148,7 @@ hr{
 @media (max-width: 1300px) {
 
   .titulo_menu2 {
-    top: 44%;
+    top: 30%;
     font-size: 260%;
   }
   
@@ -165,7 +179,7 @@ hr{
 @media (max-width: 1200px) {
 
   .titulo_menu2 {
-    top: 42%;
+    top: 30%;
     font-size: 250%;
   }
   
@@ -196,7 +210,7 @@ hr{
 @media (max-width: 1100px) {
 
   .titulo_menu2 {
-    top: 39%;
+    top: 24%;
     font-size: 250%;
   }
   
@@ -227,7 +241,7 @@ hr{
 @media (max-width: 1000px) {
 
   .titulo_menu2 {
-    top: 36%;
+    top: 22%;
     font-size: 200%;
   }
   
@@ -258,7 +272,7 @@ hr{
 @media (max-width: 900px) {
 
   .titulo_menu2 {
-    top: 35%;
+    top: 20%;
     font-size: 170%;
   }
   
@@ -289,7 +303,7 @@ hr{
 @media (max-width: 800px) {
 
   .titulo_menu2 {
-    top: 29%;
+    top: 17%;
     font-size: 160%;
   }
   
@@ -320,7 +334,7 @@ hr{
 @media (max-width: 700px) {
 
   .titulo_menu2 {
-    top: 24%;
+    top: 15%;
     font-size: 145%;
   }
   
@@ -351,7 +365,7 @@ hr{
 @media (max-width: 600px) {
 
   .titulo_menu2 {
-    top: 19%;
+    top: 12%;
     font-size: 135%;
   }
   
@@ -382,7 +396,7 @@ hr{
 @media (max-width: 500px) {
 
   .titulo_menu2 {
-    top: 19%;
+    top: 11%;
     font-size: 125%;
   }
   
@@ -413,7 +427,7 @@ hr{
 @media (max-width: 450px) {
 
   .titulo_menu2 {
-    top: 15%;
+    top: 10%;
     font-size: 105%;
   }
   
@@ -444,7 +458,7 @@ hr{
 @media (max-width: 400px) {
 
   .titulo_menu2 {
-    top: 15%;
+    top: 8%;
     font-size: 105%;
   }
   
@@ -475,7 +489,7 @@ hr{
 @media (max-width: 350px) {
 
   .titulo_menu2 {
-    top: 12%;
+    top: 7%;
     font-size: 105%;
   }
   
@@ -506,7 +520,7 @@ hr{
 @media (max-width: 300px) {
 
   .titulo_menu2 {
-    top: 10%;
+    top: 6%;
     font-size: 105%;
   }
   

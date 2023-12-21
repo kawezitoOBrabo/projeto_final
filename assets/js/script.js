@@ -22,6 +22,9 @@ function backTop(){
   })
 }
 
+let slideIndex = 0;
+showSlides();
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -37,6 +40,20 @@ function showSlides(n) {
   let prevButton = document.querySelector(".prev");
   let nextButton = document.querySelector(".next");
 
+  // Verifica se n é indefinido (chamada automática) e incrementa slideIndex
+  if (n === undefined) {
+    slideIndex++;
+  } else {
+    slideIndex = n;
+  }
+
+  // Verifica se slideIndex está fora dos limites
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  } else if (slideIndex < 1) {
+    slideIndex = slides.length;
+  }
+
   // Oculta todos os slides
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
@@ -45,15 +62,6 @@ function showSlides(n) {
   // Remove a classe "active" de todas as bolinhas
   for (i = 0; i < dots.length; i++) {
     dots[i].classList.remove("active");
-  }
-
-  // Atualiza o índice do slide
-  if (n > slides.length) {
-    slideIndex = 1;
-  } else if (n < 1) {
-    slideIndex = slides.length;
-  } else {
-    slideIndex = n;
   }
 
   // Exibe o slide atual
@@ -65,7 +73,4 @@ function showSlides(n) {
   // Atualiza a visibilidade das setas de navegação
   prevButton.style.display = (slideIndex === 1) ? "none" : "block";
   nextButton.style.display = (slideIndex === slides.length) ? "none" : "block";
-
-  // Chama a função recursivamente após 4 segundos para o próximo slide
-  setTimeout(showSlides, 4000); // Muda a imagem a cada 4 segundos
 }

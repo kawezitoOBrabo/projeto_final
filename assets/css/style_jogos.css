@@ -95,7 +95,7 @@ hr{
 }
 
 .texto p{
-  opacity: 100%;
+  color: inherit;
 }
 
 /* Responsivo */

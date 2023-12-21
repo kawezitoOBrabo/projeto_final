@@ -64,7 +64,7 @@ let dots = document.getElementsByClassName("dot");
 for (let i = 0; i < dots.length; i++) {
   dots[i].addEventListener("click", function() {
     // Define o slideIndex para o índice da bolinha clicada
-    slideIndex = i + 1;
+    slideIndex = i;
     showSlides();
   });
 }

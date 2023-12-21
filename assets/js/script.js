@@ -23,6 +23,9 @@ function backTop(){
 }
 
 
+let slideIndex = 0;
+showSlides();
+
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -53,13 +56,15 @@ function showSlides() {
 
   // Chama a função recursivamente após 4 segundos para o próximo slide
   setTimeout(showSlides, 4000); // Muda a imagem a cada 4 segundos
-
 }
+
+// Adiciona eventos de clique para as bolinhas
 let dots = document.getElementsByClassName("dot");
 
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].addEventListener("click", function() {
-      // Define o slideIndex para o índice da bolinha clicada
-      slideIndex = i + 1;
-      showSlides();
-  });}
+for (let i = 0; i < dots.length; i++) {
+  dots[i].addEventListener("click", function() {
+    // Define o slideIndex para o índice da bolinha clicada
+    slideIndex = i + 1;
+    showSlides();
+  });
+}

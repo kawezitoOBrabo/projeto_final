@@ -53,4 +53,13 @@ function showSlides() {
 
   // Chama a função recursivamente após 4 segundos para o próximo slide
   setTimeout(showSlides, 4000); // Muda a imagem a cada 4 segundos
+
 }
+let dots = document.getElementsByClassName("dot");
+
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].addEventListener("click", function() {
+      // Define o slideIndex para o índice da bolinha clicada
+      slideIndex = i + 1;
+      showSlides();
+  });}

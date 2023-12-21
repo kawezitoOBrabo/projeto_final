@@ -26,10 +26,12 @@ function backTop(){
 let slideIndex = 0;
 showSlides();
 
-function showSlides() {
+function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
+  let prevButton = document.querySelector(".prev");
+  let nextButton = document.querySelector(".next");
 
   // Oculta todos os slides
   for (i = 0; i < slides.length; i++) {
@@ -41,11 +43,13 @@ function showSlides() {
     dots[i].classList.remove("active");
   }
 
-  slideIndex++;
-
-  // Se o índice for maior que o número de slides, reinicia para o primeiro slide
-  if (slideIndex > slides.length) {
+  // Atualiza o índice do slide
+  if (n > slides.length) {
     slideIndex = 1;
+  } else if (n < 1) {
+    slideIndex = slides.length;
+  } else {
+    slideIndex = n;
   }
 
   // Exibe o slide atual
@@ -54,17 +58,10 @@ function showSlides() {
   // Adiciona a classe "active" à bolinha correspondente ao slide atual
   dots[slideIndex - 1].classList.add("active");
 
+  // Atualiza a visibilidade das setas de navegação
+  prevButton.style.display = (slideIndex === 1) ? "none" : "block";
+  nextButton.style.display = (slideIndex === slides.length) ? "none" : "block";
+
   // Chama a função recursivamente após 4 segundos para o próximo slide
   setTimeout(showSlides, 4000); // Muda a imagem a cada 4 segundos
-}
-
-// Adiciona eventos de clique para as bolinhas
-let dots = document.getElementsByClassName("dot");
-
-for (let i = 0; i < dots.length; i++) {
-  dots[i].addEventListener("click", function() {
-    // Define o slideIndex para o índice da bolinha clicada
-    slideIndex = i;
-    showSlides();
-  });
 }
